@@ -33,9 +33,9 @@ const Layout = {
                  vnode.children
                 ),
               
-                  m("footer", {"class":"pv4 mt5 tc"},
+                  m("section", {"class":"pv4 mt5 tc"},
                   [
-                    m("iframe", {"src":"https://smallscale.substack.com/embed","scrolling":"no","width":"480","height":"320","frameborder":"0"})
+                    m("iframe", {"src":"https://smallscale.substack.com/embed","scrolling":"no","height":"320","frameborder":"0"})
 
                   ]
                 )
@@ -43,7 +43,7 @@ const Layout = {
               ]
             ), 
 
-            m("footer", {"class":"dt w-100 border-box center pb0"},[
+            m("footer", {"class":"dt w-100 border-box center pb0 v-bottom"},[
              m("div",[
                 m("div", {"class":"h1 pv1 w-100 dt", style:"background-color: hsl(27,100%,70%)"}, " "),
                 m("div", {"class":"h1 pv1 w-100 dt",  style:"background-color: hsl(8,67%,60%)"}," "),

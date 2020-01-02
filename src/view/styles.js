@@ -1,6 +1,10 @@
  // #9013FE
  // lighter: #e3c3fe
  const Colors = {
+     main:{
+         primary:"#28005d",
+         lighter: "#28005d",
+     },
      purpose:
      {
          primary: "#A3248F",

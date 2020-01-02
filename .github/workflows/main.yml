@@ -21,4 +21,4 @@ jobs:
           REPO: self
           BRANCH: gh-pages
           FOLDER: dist
-          SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}

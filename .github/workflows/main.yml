@@ -15,8 +15,10 @@ jobs:
       - run: yarn
       - run: yarn deploy
       - run: npm test
-      - uses: JamesIves/github-pages-deploy-action@3.1.1
-        with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
+      - name: Deploy
+        uses: s0/git-publish-subdir-action@master
+        env:
+          REPO: self
+          BRANCH: gh-pages
           FOLDER: dist
+          SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}

@@ -35,7 +35,7 @@ const Layout = {
               
                   m("section", {"class":"pv4 mt5 tc"},
                   [
-                    m("iframe", {"src":"https://smallscale.substack.com/embed","scrolling":"no","height":"320","frameborder":"0"})
+                    m("iframe", {"src":"https://smallscale.substack.com/embed","scrolling":"no", "width":"480","height":"320","frameborder":"0"})
 
                   ]
                 )

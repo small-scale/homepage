@@ -25,8 +25,6 @@ const Projects = {
 
         ]),
 
-        m("p", {class:"spvar f4"}, [`Want to support an existing project? Start a new one? Email `, m("a", {href:"mailto:projects@smallscale.org", class:"fw7 link", style:"color: hsl(8,67%,60%)"}, `projects@smallscale.org` ), `.`]),
-
     ]
        
        )]

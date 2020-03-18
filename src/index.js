@@ -2,9 +2,7 @@ import m from "mithril"
 
 import Layout from "../src/view/layout"
 
-import Splash from "../src/view/sections/splash"
 import Projects from "../src/view/sections/projects"
-import Consulting from "../src/view/sections/consulting"
 import Contact from "../src/view/sections/contact"
 
 
@@ -24,7 +22,7 @@ import Contact from "../src/view/sections/contact"
                 nextLink: null,
                 nextCopy: null,
                 prevLink: null,
-                prevCopy: null }, [m(Splash), m(Projects), m(Consulting), m(Contact)])
+                prevCopy: null }, [m(Projects), m(Contact)])
             }
         }, 
     })

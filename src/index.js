@@ -22,7 +22,7 @@ import Contact from "../src/view/sections/contact"
                 nextLink: null,
                 nextCopy: null,
                 prevLink: null,
-                prevCopy: null }, [m(Projects), m(Contact)])
+                prevCopy: null }, [])
             }
         }, 
     })

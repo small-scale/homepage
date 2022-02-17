@@ -8,7 +8,7 @@ const Projects = {
        m("section", {"class":"f4-ns f5 lh-copy"}, 
        [
         m("div", {class:"dt mv3 w-100 tc f1 mr2 white "}, [
-            m("div",{class:"dtc ph3-ns ph1 w-20-ns w3 v-mid f3 pv2"}, [m("img",{class:"img w-100", src:"static/hnlogo.png"})]),
+            //m("div",{class:"dtc ph3-ns ph1 w-20-ns w3 v-mid f3 pv2"}, [m("img",{class:"img w-100", src:"static/hnlogo.png"})]),
             m("div",{class:`dtc v-mid ph2 pv2 tl black`}, [
                 m("p",{class: "f2-ns f4 lh-copy mv0 spartan"},"Health networks"),
                 m("p",{class: "f4-ns f5 lh-copy mv0"}, "Building better data governance for children's hospitals.")

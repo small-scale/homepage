@@ -2,8 +2,7 @@ import m from "mithril"
 
 import Layout from "../src/view/layout"
 
-import Projects from "../src/view/sections/projects"
-import Contact from "../src/view/sections/contact"
+
 
 
 
